@@ -8,3 +8,4 @@ After sorting, output the index number of every element.
 
 ## Solution
 Here is my solution in c, [solution link](https://github.com/SJieNg123/Code-practice/blob/main/Nthu%20IPHTOJ/Problem7-Airplane%20Shooter.c)
+<br>p/s: Sorting problem
