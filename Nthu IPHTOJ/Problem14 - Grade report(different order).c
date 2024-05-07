@@ -2,13 +2,6 @@
 #include <string.h>
 #include <stdlib.h>
 
-typedef struct
-{
-    int ID;
-    int Chinese, English, math, science;
-    int total;
-} Grade;
-
 int cmp1(const void *a, const void *b)
 {
     Grade *grade1 = (Grade *)a;
@@ -58,6 +51,15 @@ void sortGrade(Grade *gList, int n, char *order)
     return;
 }
 
+// below is the given half done code
+/*
+typedef struct
+{
+    int ID;
+    int Chinese, English, math, science;
+    int total;
+} Grade;
+
 int main()
 {
     int n, i;
@@ -71,3 +73,4 @@ int main()
         printf("%d\t%d\t%d\t%d\t%d\t%d\n", gradeList[i].ID, gradeList[i].total, gradeList[i].Chinese, gradeList[i].English, gradeList[i].math, gradeList[i].science);
     return 0;
 }
+*/
