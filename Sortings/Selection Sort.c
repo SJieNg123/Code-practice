@@ -20,7 +20,8 @@ int main()
         }
         
         // Swap the found minimum element with the first element
-        if (min != i) {
+        if (min != i) 
+        {
             int tmp = num[i];
             num[i] = num[min];
             num[min] = tmp;
@@ -28,7 +29,6 @@ int main()
     }
 
     // print out the result
-    for (int i = 0; i < size; i++)
-        printf("%d ", num[i]);
+    for (int i = 0; i < size; i++) printf("%d ", num[i]);
     return 0;
 }
