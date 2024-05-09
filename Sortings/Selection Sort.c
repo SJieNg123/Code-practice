@@ -7,16 +7,23 @@ int main()
     int size = sizeof(num) / sizeof(int);
 
     // compare the leftmost value with others, then swap it
-    for (int i = 0; i < size; i++)
+    for (int i=0; i<size-1; i++) 
     {
-        for (int j = 0; j < size; j++)
+        int min = i;
+        for (int j=i+1; j<size; j++) 
         {
-            if (num[i] < num[j])
+            // Find the index of the minimum element
+            if (num[j] < num[min]) 
             {
-                int tmp = num[i];
-                num[i] = num[j];
-                num[j] = tmp;
+                min = j;
             }
+        }
+        
+        // Swap the found minimum element with the first element
+        if (min != i) {
+            int tmp = num[i];
+            num[i] = num[min];
+            num[min] = tmp;
         }
     }
 
