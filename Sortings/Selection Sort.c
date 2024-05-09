@@ -6,7 +6,6 @@ int main()
     // find the size of array
     int size = sizeof(num) / sizeof(int);
 
-    // compare the leftmost value with others, then swap it
     for (int i=0; i<size-1; i++) 
     {
         int min = i;
