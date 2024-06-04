@@ -1,4 +1,4 @@
-# Progression
+# I got a perfect body
 [question link](https://140.114.85.195/problem/45)
 
 ## Description
