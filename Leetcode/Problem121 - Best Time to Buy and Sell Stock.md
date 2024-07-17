@@ -9,13 +9,10 @@ Return the maximum profit you can achieve from this transaction. If you cannot a
 <br>Topics: Array, dynamic programming
 
 ## Solution
-Here is my solution in c, 
+Here is my solution in c
+<br>brute force solution, code below will face TLE since the time complexity is O(n^2)
 ```C
 int maxProfit(int* prices, int pricesSize) {
-
-    // brute force solution
-    // code below will face TLE since the time complexity is O(n^2)
-    /*
     int profit = 0;
     for(int i=pricesSize-1; i>0; i--)
     {
@@ -28,9 +25,12 @@ int maxProfit(int* prices, int pricesSize) {
             }
         }
     }
-    */
-
-    // code below reduce time complexity to O(n), so it will pass all testcases
+return profit;
+}
+```
+<br>code below reduce time complexity to O(n), so it will pass all testcases
+```C
+int maxProfit(int* prices, int pricesSize) {
     int ans = 0, min = 10000;
     for(int i=0; i<pricesSize; i++)
     {
@@ -38,7 +38,6 @@ int maxProfit(int* prices, int pricesSize) {
         if(current < min) min = current;
         else if(current - min > ans) ans = current - min;
     }
-
     return ans;
 }
 ```
