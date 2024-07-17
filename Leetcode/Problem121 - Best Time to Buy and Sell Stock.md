@@ -25,7 +25,7 @@ int maxProfit(int* prices, int pricesSize) {
             }
         }
     }
-return profit;
+    return profit;
 }
 ```
 <br>code below reduce time complexity to O(n), so it will pass all testcases
