@@ -2,7 +2,6 @@ int maxProfit(int* prices, int pricesSize) {
 
     // brute force solution
     // code below will face TLE since the time complexity is O(n^2)
-    
     /*
     int profit = 0;
     for(int i=pricesSize-1; i>0; i--)
