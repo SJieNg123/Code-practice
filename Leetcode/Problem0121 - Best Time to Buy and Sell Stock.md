@@ -1,5 +1,4 @@
 # Best Time to Buy and Sell Stock 
-[question link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 
 ## Description
 You are given an array prices where prices[i] is the price of a given stock on the ith day. 
@@ -7,6 +6,7 @@ You want to maximize your profit by choosing a single day to buy one stock and c
 Return the maximum profit you can achieve from this transaction. If you cannot achieve any profit, return 0.
 <br>Difficuity : Easy
 <br>Topics: Array, Dynamic Programming
+<br>[Question link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 
 ## Solution
 Here is my solution in c
@@ -41,4 +41,4 @@ int maxProfit(int* prices, int pricesSize) {
     return ans;
 }
 ```
-[solution link](https://github.com/SJieNg123/Code-practice/blob/main/Leetcode/Problem121%20-%20Best%20Time%20to%20Buy%20and%20Sell%20Stock.c)
+[Solution link](https://github.com/SJieNg123/Code-practice/blob/main/Leetcode/Problem121%20-%20Best%20Time%20to%20Buy%20and%20Sell%20Stock.c)
