@@ -1,5 +1,5 @@
 # Best Time to Buy and Sell Stock II
-[question link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/)
+[Question link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/)
 
 ## Description
 You are given an integer array prices where prices[i] is the price of a given stock on the ith day. On each day, you may decide to buy and/or sell the stock. 
@@ -20,4 +20,4 @@ int maxProfit(int* prices, int pricesSize) {
     return total;
 }
 ```
-[solution link](https://github.com/SJieNg123/Code-practice/blob/main/Leetcode/Problem122%20-%20Best%20Time%20to%20Buy%20Stock%20II.c)
+[Solution link](https://github.com/SJieNg123/Code-practice/blob/main/Leetcode/Problem122%20-%20Best%20Time%20to%20Buy%20Stock%20II.c)
