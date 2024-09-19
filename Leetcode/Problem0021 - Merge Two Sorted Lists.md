@@ -10,6 +10,7 @@ Return the head of the merged linked list.
 
 ## Solution
 Here is my solution in c
+<br>Time complexity is O(n)
 ```C
 /**
  * Definition for singly-linked list.
