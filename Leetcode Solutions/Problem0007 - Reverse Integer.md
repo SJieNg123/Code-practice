@@ -1,25 +1,17 @@
 # Reverse Integer
 
 ## Description
-Given a signed 32-bit integer x, return x with its digits reversed. If reversing x causes the value to go outside the signed 32-bit integer range [-2^31, 2^31 - 1], then return 0.
-Assume the environment does not allow you to store 64-bit integers (signed or unsigned).
+Implement pow(x, n), which calculates x raised to the power n (i.e., x^n).
 <br>Difficuity : Medium
-<br>Topics: Math
-<br>[Question link](https://leetcode.com/problems/reverse-integer/description/?envType=problem-list-v2&envId=math)
+<br>Topics: Math. Recursion
+<br>[Question link](https://leetcode.com/problems/powx-n/)
 
 ## Solution
 Here is my solution in c
-<br>Time complexity is O(log(x))
+<br>Time complexity is O(log(n))
 ```C
-int reverse(int x){
-    long sum = 0;
-    while(x != 0)
-    {
-        int reverse = x % 10;
-        sum = sum * 10 + reverse;
-        x = x / 10;
-    }
-    if(sum > INT_MAX ||sum < INT_MIN) return 0;
-    else return (int)sum; 
+// since it only require to implement pow(x, n), so just use it
+double myPow(double x, int n) {
+    return pow(x, n);
 }
 ```
