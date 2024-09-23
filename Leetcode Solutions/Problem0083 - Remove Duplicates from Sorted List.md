@@ -27,4 +27,3 @@ struct ListNode* deleteDuplicates(struct ListNode* head) {
     return head;
 }
 ```
-[Solution link](https://github.com/SJieNg123/Code-practice/blob/main/Leetcode%20Solutions/Problem0083%20-%20Remove%20Duplicates%20from%20Sorted%20List.c)
