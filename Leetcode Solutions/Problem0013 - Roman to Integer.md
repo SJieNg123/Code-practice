@@ -93,4 +93,3 @@ int romanToInt(char* s) {
     return ans;
 }
 ```
-[Solution link](https://github.com/SJieNg123/Code-practice/blob/main/Leetcode/Problem0013%20-%20Roman%20to%20Integer.c)
