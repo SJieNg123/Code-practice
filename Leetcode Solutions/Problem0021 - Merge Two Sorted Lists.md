@@ -37,4 +37,3 @@ struct ListNode* mergeTwoLists(struct ListNode* list1, struct ListNode* list2) {
     return head -> next;
 }
 ```
-[Solution link](https://github.com/SJieNg123/Code-practice/blob/main/Leetcode/Problem0021%20-%20Merge%20Two%20Sorted%20Lists.c)
