@@ -12,13 +12,6 @@ Return the head of the merged linked list.
 Here is my solution in c
 <br>Time complexity is O(n)
 ```C
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     struct ListNode *next;
- * };
- */
 struct ListNode* mergeTwoLists(struct ListNode* list1, struct ListNode* list2) {
     struct ListNode* head = (struct ListNode*)malloc(sizeof(struct ListNode));
     struct ListNode* tmp = head;
