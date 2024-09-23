@@ -20,4 +20,3 @@ int maxProfit(int* prices, int pricesSize) {
     return total;
 }
 ```
-[Solution link](https://github.com/SJieNg123/Code-practice/blob/main/Leetcode/Problem122%20-%20Best%20Time%20to%20Buy%20Stock%20II.c)
