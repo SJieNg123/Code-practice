@@ -36,4 +36,3 @@ struct ListNode* deleteMiddle(struct ListNode* head) {
     return head;
 }
 ```
-[Solution link](https://github.com/SJieNg123/Code-practice/blob/main/Leetcode%20Solutions/Problem2095%20-%20Delete%20the%20Middle%20Node%20of%20a%20Linked%20List.c)
