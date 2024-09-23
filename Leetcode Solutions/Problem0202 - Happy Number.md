@@ -30,4 +30,3 @@ bool isHappy(int n) {
     return isHappy(sum);
 }
 ```
-[Solution link](https://github.com/SJieNg123/Code-practice/blob/main/Leetcode%20Solutions/Problem0202%20-%20Happy%20Number.c)
