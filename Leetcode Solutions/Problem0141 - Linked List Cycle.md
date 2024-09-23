@@ -28,4 +28,3 @@ bool hasCycle(struct ListNode *head) {
     return false;
 }
 ```
-[Solution link](https://github.com/SJieNg123/Code-practice/blob/main/Leetcode%20Solutions/Problem0141%20-%20Linked%20List%20Cycle.c)
