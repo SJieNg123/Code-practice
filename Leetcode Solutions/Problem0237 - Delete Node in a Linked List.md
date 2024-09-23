@@ -26,4 +26,3 @@ void deleteNode(struct ListNode* node) {
     }
 }
 ```
-[Solution link](https://github.com/SJieNg123/Code-practice/blob/main/Leetcode%20Solutions/Problem0237%20-%20Delete%20Node%20in%20a%20Linked%20List.c)
