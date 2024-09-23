@@ -20,4 +20,3 @@ public:
     }
 };
 ```
-[Solution link](https://github.com/SJieNg123/Code-practice/blob/main/Leetcode/Problem0231%20-%20Power%20of%20Two.cpp)
