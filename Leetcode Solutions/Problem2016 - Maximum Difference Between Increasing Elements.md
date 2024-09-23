@@ -26,4 +26,3 @@ int maximumDifference(int* nums, int numsSize)
     return max_dif;
 }
 ```
-[Solution link](https://github.com/SJieNg123/Code-practice/blob/main/Leetcode/Problem2016%20-%20Maximum%20Difference%20Between%20Increasing%20Elements.c)
