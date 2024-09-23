@@ -41,4 +41,3 @@ int maxProfit(int* prices, int pricesSize) {
     return ans;
 }
 ```
-[Solution link](https://github.com/SJieNg123/Code-practice/blob/main/Leetcode/Problem121%20-%20Best%20Time%20to%20Buy%20and%20Sell%20Stock.c)
