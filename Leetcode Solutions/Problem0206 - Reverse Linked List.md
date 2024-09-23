@@ -26,4 +26,3 @@ struct ListNode* reverseList(struct ListNode* head) {
     return prev;
 }
 ```
-[Solution link](https://github.com/SJieNg123/Code-practice/blob/main/Leetcode%20Solutions/Problem0206%20-%20Reverse%20Linked%20List.c)
