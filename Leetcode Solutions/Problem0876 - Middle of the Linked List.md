@@ -25,5 +25,3 @@ struct ListNode* middleNode(struct ListNode* head) {
     return slow;
 }
 ```
-[Solution link](https://github.com/SJieNg123/Code-practice/blob/main/Leetcode%20Solutions/Problem0876%20-%20Middle%20of%20the%20Linked%20List.c)
-****
