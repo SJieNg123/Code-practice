@@ -39,4 +39,3 @@ struct ListNode* removeElements(struct ListNode* head, int val) {
     return head;
 }
 ```
-[Solution link](https://github.com/SJieNg123/Code-practice/blob/main/Leetcode%20Solutions/Problem0203%20-%20Remove%20Linked%20List%20Elements.c)
