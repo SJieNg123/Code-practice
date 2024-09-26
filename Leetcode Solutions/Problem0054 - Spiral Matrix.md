@@ -7,7 +7,7 @@ Given an m x n matrix, return all elements of the matrix in spiral order.
 <br>[Question link](https://leetcode.com/problems/spiral-matrix/description/)
 
 ## Solution
-Here is my solution in c, presonally hate this type of question lol
+Here is my solution in c, I personally hate this type of question lol
 <br>Time complexity is O(m * n)
 ```C
 /**
