@@ -5,7 +5,7 @@ Given two sorted arrays nums1 and nums2 of size m and n respectively, return the
 The overall run time complexity should be O(log (m+n)).
 <br>Difficuity : Hard
 <br>Topics: Array, Binary Search, Divide and Conquer
-<br>[Question link](https://leetcode.com/problems/two-sum/description/)
+<br>[Question link](https://leetcode.com/problems/median-of-two-sorted-arrays/description/?envType=problem-list-v2&envId=binary-search)
 ## Solution
 Here is my solution in c
 <br>Time complexity is O(m+n)
