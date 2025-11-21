@@ -18,7 +18,7 @@ All of the values are integers. Note that the value could be negative, and Osas 
 
 <br>Outputs: For each query, output the maximum value Osas could get. Each query holds exactly one line.
 Remember to print a '\n' at the end of the output.
-<br>Topics: Prefix sum
+<br>Topics: Prefix sum<br>
 
 ## Solution
 Here is my solution in C
