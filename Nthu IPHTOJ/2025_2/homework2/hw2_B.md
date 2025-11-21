@@ -1,9 +1,9 @@
-# Permutation 1
+# Gey cool~
 
 ## Description
-You will have n n numbers and q q times of queries. Each query includes two numbers a a, b b which indicate the range. 
-The sum of a range indicates the sum of numbers from position a a to position b b. If a a bigger than b b , you need to sum up the numbers from a a to the end and from the start to b b. 
-If a a is smaller than b b you just need to sum up the numbers from a a to b b. If a a is equal to b b, than there's only one number, and the number will be the sum. 
+You will have n numbers and q times of queries. Each query includes two numbers a, b which indicate the range. 
+The sum of a range indicates the sum of numbers from position a to position b. If a bigger than b , you need to sum up the numbers from a to the end and from the start to b. 
+If a is smaller than b you just need to sum up the numbers from a to b. If a is equal to b, than there's only one number, and the number will be the sum. 
 Your task is finding the range that has the maximum sum. Note that the index is start from 1. If you find multiple answers, you only need to answer the first one appear in the queries.
 <br>
 <br>Inputs: Input end with EOF. Each testcase contains several lines. First line contains two integer n(1 ≤ n ≤ 2×10^6)​​ and q(1 ≤ q ≤ 2×10^6) Second line contains n integers. 
