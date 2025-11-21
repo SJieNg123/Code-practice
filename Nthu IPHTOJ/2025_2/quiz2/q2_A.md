@@ -1,4 +1,4 @@
-Similar to [hw3_A](https://github.com/SJieNg123/Code-practice/blob/main/Nthu%20IPHTOJ/2025_2/homework3/hw3_A.md), but changed to construct tree by inorder and postorder. 
+If I have not mistaken, the question is similar to [hw3_A](https://github.com/SJieNg123/Code-practice/blob/main/Nthu%20IPHTOJ/2025_2/homework3/hw3_A.md), but changed to construct tree by inorder and postorder. 
 <br>Guessed solution using C, not guaranteed to be correct
 ```C
 int postorder_index = -1;
