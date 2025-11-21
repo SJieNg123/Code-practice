@@ -14,9 +14,6 @@ It's guaranteed that <dest1>
 ≤<dest2>.
 show: show the sequence according to the order.
 You are going to implement a linked list that support these operations. We have implemented show operation, what you have to do is to implement the remaining operations: insert, erase1, erase2, reverse.
-
-
-
 <br>Inputs: The first line contains an integer n, indicates the number of operations.
 There are n lines below. Each line contains one operations described above. <color> will only appear the 6 colors described above. insert: 0 <= <dest> <= 10000, erase1: 1 <= <dest> <= 10000, reverse: 1 <= <dest1>, <dest2> <= 10000, 1 <= n <= 5000
 <br>Outputs: When show operation is called, you should output the correct sequence after operating.
