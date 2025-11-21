@@ -10,14 +10,16 @@ Osas arranged the note and concluded some rules:
 - If any tomb raider loot more than m treasure crates or loot any crate that not in the interval, the trap would trigger and kill that tomb raider! Osas doesn't want to die here.
 - Osas wants these treasures, but he doesn't want to die. Osas wants to know if he pick one interval and guess a number as m, what is the maximum value he could loot? Osas asks you for help! 
 Osas will give you the value of every treasure crate and the number he would like to guess, you need to write a program to help him.
-<br>
+
 <br>Inputs: The input contains exactly one testcase. The first line contains two integers n, q. q indicates the amount of queries of (l,r,m).
 The next line is the sequence of values of n treasure crates, each separated by a space.
 The next q lines, each line contains exactly three integers l, r, m. 1 ≤ m ≤ n ≤ 10^6 ,1 ≤ q ≤ 10^6 ,1 ≤ l ≤ r ≤ n,m ≤ r−l+1, the value of every treasure crate won't larger than 10^5 or smaller than −10^5 .
 All of the values are integers. Note that the value could be negative, and Osas can choose nothing. Note that the sequence index starts from 1. For example, a sequence a = {3 4 5 6 7}, a[4]=6, a[1]=3.
+
 <br>Outputs: For each query, output the maximum value Osas could get. Each query holds exactly one line.
 Remember to print a '\n' at the end of the output.
 <br>Topics: Prefix sum
+
 ## Solution
 Here is my solution in C
 ```C
